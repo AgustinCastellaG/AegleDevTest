@@ -1,0 +1,23 @@
+.button {
+  padding: 0.99vw 1.72vw;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  &.primary {
+    color: #ffffff;
+    text-align: right;
+    background: #E1A945;
+    border-radius: 39px;
+    border: none;
+  }
+
+  &.secondary {
+    padding: 0.94vw 1.41vw;
+    background-color: transparent;
+    border: 3px solid #0E4656;
+    border-radius: 39px;
+  }
+}

@@ -1,0 +1,80 @@
+#Home {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+
+  #home-graphic-section {
+    display: flex;
+    align-items: center;
+    background-color: #0e4656;
+    height: 100vh;
+    padding-left: 10.57vw;
+
+    #graphic-container {
+      display: flex;
+      align-items: center;
+      padding-bottom: 11.2vh;
+
+      #graphic-left-section {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 14.6vh;
+        color: #ffffff;
+
+        #graphic-text-container {
+          display: flex;
+          flex-direction: column;
+
+          .yellow {
+            color: #e1a945;
+          }
+        }
+
+        #graphic-buttons-container {
+          display: flex;
+          align-items: center;
+          margin-top: 9.2vh;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+        }
+      }
+
+      #graphic-right-section {
+        #graphic-img {
+          width: 56.15vw;
+        }
+      }
+    }
+  }
+
+  #floating-section {
+    position: relative;
+    padding: 0 10.4vw;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      max-width: 47.4vw;
+
+      .title {
+        color: #0e4656;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        font-size: 24px;
+        line-height: 29px;
+        color: #6f6f6f;
+        margin-bottom: 3.8vw;
+      }
+
+      .cards-container {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}

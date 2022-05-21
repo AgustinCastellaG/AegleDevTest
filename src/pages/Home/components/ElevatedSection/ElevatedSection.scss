@@ -1,0 +1,35 @@
+.elevated-section-container {
+  display: flex;
+  align-items: center;
+  max-width: 54.38vw;
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 16vw;
+
+    .title-container {
+      display: flex;
+
+      .beta-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 43px;
+        height: 21px;
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 2px;
+        margin-left: 10px;
+
+        .beta-text {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.nav-bar-item-container {
+  display: flex;
+  margin: 0 1.22vw;
+  color: #ffffff;
+
+  .nav-bar-item-text {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .beta-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 21px;
+    margin-left: 9px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+
+    .beta-text {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+
+  .dropdown-icon-container {
+    margin-left: 13px;
+    .dropdown-icon {
+      width: 13px;
+    }
+  }
+}
